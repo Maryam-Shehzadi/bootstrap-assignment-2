@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header button{
+    padding: 3px 20px;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid rgb(7, 7, 167);
+}
+
+body{
+    background: rgb(255,255,255);
+background: linear-gradient(159deg, rgba(255,255,255,1) 0%, rgba(241,231,244,1) 60%, rgba(241,171,227,1) 100%);
+height: 100vh;
+overflow-y: hidden;
+}
+
+
+.hero{
+    height: 90vh;
+}
+.right img{
+    filter: drop-shadow(20px 32px 25px #787878);
+}
+
+.purple{
+    color: blueviolet;
+}
+
+.hero p{
+    font-size: 13px;
+}
+
+.hero button{
+    background-image: linear-gradient(rgb(117, 117, 218),rgb(197, 107, 197));
+    color: white;
+    width: 160px;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    border: none;
+    border: 2px solid rgb(69, 69, 146);
+}
